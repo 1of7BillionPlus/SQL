@@ -1,0 +1,22 @@
+CREATE TABLE store (ID INTEGER PRIMARY KEY, Name TEXT, Price INTEGER, Grams TEXT, Sold INTEGER);
+
+INSERT INTO store VALUES (1, "Pinapple Express", 2.99, 1, 114);
+INSERT INTO store VALUES (2, "Skywalker", 12.99, 1, 117);
+INSERT INTO store VALUES (3, "Maui Waui", 1.99, 1, 119);
+INSERT INTO store VALUES (4, "Pinapple Kush", 71.99, 1, 140);
+INSERT INTO store VALUES (5, "Blue Dream", 35.99, 1, 144);
+INSERT INTO store VALUES (6, "Head Band", 24.99, 1, 104);
+INSERT INTO store VALUES (7, "Green Crack", 29.99, 1, 174);
+INSERT INTO store VALUES (8, "White Widow", 43.99, 1, 149);
+INSERT INTO store VALUES (9, "Thai Stick", 45.99, 1, 154);
+INSERT INTO store VALUES (10, "Fire Cracker", 37.99, 1, 174);
+INSERT INTO store VALUES (11, "PSSH", 63.99, 1, 164);
+INSERT INTO store VALUES (12, "Super Silver Haze", 48.99, 1, 194);
+INSERT INTO store VALUES (13, "White Rhino", 52.99, 1, 914);
+INSERT INTO store VALUES (14, "Gorilla Glue #4", 14.99, 1, 714);
+INSERT INTO store VALUES (15, "Blueberry", 39.99, 1, 134);
+
+SELECT * FROM store
+ORDER by price;
+SELECT * FROM store
+ORDER by sold desc;
